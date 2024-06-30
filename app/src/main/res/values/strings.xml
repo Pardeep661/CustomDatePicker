@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomDatePicker</string>
+    <string name="date_picker">Date_Picker</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+   <style name="Base.Theme.CustomDatePicker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+       <item name="android:windowBackground">@color/material_dynamic_primary0</item>  /* calander bg*/
+       <item name="colorAccent">#82B1FF</item>                                         /* Header background*/
+       <item name="colorControlActivated">#278FBD</item>                               /* selected day */
+       <item name="android:textColorPrimary">#000000</item>                             /* day of month */
+       <item name="android:textColorSecondary">#80D8FF</item>                           /* day of week */
+
+       <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+    <style name="Theme.CustomDatePicker" parent="Base.Theme.CustomDatePicker" />
+</resources>
